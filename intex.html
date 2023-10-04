@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogalerie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  
+</head>
+
+<body onload="front()">
+    <h1 class="headline">Meine Fotogalerie</h1>
+    <div id="pics"></div>
+
+    <div id="open" class="openImgContainer">
+        <div class="close-button" onclick="closeImage()">&times;</div>
+        <div class="openImgWrapper">
+            <div class="nav-button" onclick="navigate(-1)"> &lt; </div>
+            <img class="openImg" id="openedImage" src="">
+            <div class="nav-button" onclick="navigate(1)"> &gt; </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
